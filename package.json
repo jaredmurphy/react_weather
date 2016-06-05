@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Five Day Weather Forecast",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:jaredmurphy/react_weather.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
