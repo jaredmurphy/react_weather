@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const Url = `api.openweathermap.org/data/2.5/forecast?q=${city_name}`
+
 export default class SearchBar extends Component {
   constructor(props) {
     super(props);
