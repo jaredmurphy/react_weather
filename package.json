@@ -1,7 +1,7 @@
 {
   "name": "react_weather",
   "version": "1.0.0",
-  "description": "Five Day Weather Forecase",
+  "description": "Five Day Weather Forecast",
   "main": "index.js",
   "repository": "",
   "scripts": {
