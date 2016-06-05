@@ -1,25 +1,10 @@
-# ReduxSimpleStarter
+#React Weather
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+###Description###
+Weather App built with React, Redux, Sparklines, Open Weather API, Google Maps API, and Bootstrap. The home page prompts the user to enter in a city for a 5 day forecast. When the form is submitted, React sends the city name to Redux through the Action Controller and is intercepted by Redux-Promise, which helps us run our AJAX call to the Open Source Weather API. The response from the weather API is sent to the Weather Reducer which changes the state of the App. React then updates components to reflect the new city in the weather list component.
 
-###Getting Started###
+The weather list components shows projected temperature, humidity, and pressure for the next 5 days in each city by rendering a graph created with Sparklines, which also gives the user an average and displays the average line on the graph.
 
-There are two methods for getting started with this repo.
+The city name is displayed by a the Google Maps API. This allows users to visually interpret this data as well as ensure that the data does not represent a different city with the same name.
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+Built to better understand React and Redux. 
