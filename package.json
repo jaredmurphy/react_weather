@@ -1,6 +1,9 @@
 {
   "name": "react_weather",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.2.1"
+  },
   "description": "Five Day Weather Forecast",
   "main": "index.js",
   "repository": "git@github.com:jaredmurphy/react_weather.git",
